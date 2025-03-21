@@ -4,7 +4,7 @@ from tkinter import messagebox, scrolledtext
 from google.generativeai import configure, GenerativeModel
 
 # Configure Gemini API (Replace with your own API key)
-configure(api_key="AIzaSyCJRJJGXco4heWuK3I8ziklAXav_SKIVT8")
+configure(api_key="insert-your-api-key")
 gemini_model = GenerativeModel("gemini-2.0-flash")
 
 class PlannerState(TypedDict):
